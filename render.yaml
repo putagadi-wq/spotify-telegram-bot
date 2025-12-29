@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spotify-telegram-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python telegram_bot.py
+    envVars:
+      - key: 7957975213:AAFrrPzTgij72m3fsmi5WbW_eHDzWlOjnto
+        sync: false  # isi manual di dashboard
+    autoDeploy: true
