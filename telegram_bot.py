@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
-TELEGRAM_TOKEN = os.getenv("7957975213:AAFrrPzTgij72m3fsmi5WbW_eHDzWlOjnto")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 SPOTIFY_RESET_URL = "https://accounts.spotify.com/en/password-reset"
 VEZSTR_URL = "https://vezstr.com"
 
@@ -159,3 +159,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
